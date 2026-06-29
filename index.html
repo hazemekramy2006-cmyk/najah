@@ -82,10 +82,10 @@
   <!-- Mobile menu drawer -->
   <div class="mobile-menu" id="mobileMenu">
     <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about" data-i18n="navAbout">About</a></li>
+      <li><a href="#skills" data-i18n="navSkills">Skills</a></li>
+      <li><a href="#projects" data-i18n="navProjects">Projects</a></li>
+      <li><a href="#contact" data-i18n="navContact">Contact</a></li>
     </ul>
   </div>
 
@@ -94,9 +94,9 @@
     <div class="hero-grid-bg"></div>
 
     <div class="hero-content">
-      <div class="hero-badge" data-i18n="heroBadge">
+      <div class="hero-badge">
         <span class="hero-dot"></span>
-        <span>HCI · Software Engineering · UX Research</span>
+        <span data-i18n="heroBadge">HCI · Software Engineering · UX Research</span>
       </div>
 
       <h1 class="hero-title">
@@ -105,7 +105,7 @@
         <span class="title-line"><span class="title-text gradient-text">digital</span> <span class="title-text">experiences.</span></span>
       </h1>
 
-      <p class="hero-sub" data-i18n="heroSub">
+      <p class="hero-sub" data-i18n="heroSub" data-i18n-html="true">
         Hi, I'm <strong>Najah Rami Madani</strong> — a Software Engineering student at Umm Al-Qura University,
         specializing in <em>Human-Computer Interaction</em>. Below are 12 projects spanning UX research,
         accessibility, voice interfaces, information architecture, and full-stack development.
@@ -128,19 +128,19 @@
       <div class="hero-meta">
         <div class="meta-item">
           <span class="meta-num" data-count="12">0</span>
-          <span class="meta-label">Projects</span>
+          <span class="meta-label" data-i18n="metaProjects">Projects</span>
         </div>
         <div class="meta-item">
           <span class="meta-num">2026</span>
-          <span class="meta-label">Graduation</span>
+          <span class="meta-label" data-i18n="metaGraduation">Graduation</span>
         </div>
         <div class="meta-item">
           <span class="meta-num">2</span>
-          <span class="meta-label">Hajj Seasons</span>
+          <span class="meta-label" data-i18n="metaHajjSeasons">Hajj Seasons</span>
         </div>
         <div class="meta-item">
           <span class="meta-num">1</span>
-          <span class="meta-label">University</span>
+          <span class="meta-label" data-i18n="metaUniversity">University</span>
         </div>
       </div>
     </div>
@@ -169,15 +169,15 @@
 
     <a href="#about" class="hero-scroll" aria-label="Scroll to about">
       <span class="scroll-line"></span>
-      <span>Scroll</span>
+      <span data-i18n="heroScroll">Scroll</span>
     </a>
   </header>
 
   <!-- ============================ About ============================ -->
   <section class="section about" id="about">
     <div class="section-head">
-      <span class="section-tag">01 — About</span>
-      <h2 class="section-title">A student of <span class="italic">interfaces</span>, not just <span class="gradient-text">screens</span>.</h2>
+      <span class="section-tag" data-i18n="aboutSectionTag">01 — About</span>
+      <h2 class="section-title" data-i18n="aboutSectionTitle" data-i18n-html="true">A student of <span class="italic">interfaces</span>, not just <span class="gradient-text">screens</span>.</h2>
     </div>
 
     <div class="about-grid">
@@ -227,8 +227,8 @@
             <span class="lang-badge">Good</span>
           </li>
         </ul>
-        <p class="lang-summary">Good at two languages</p>
-        <p style="margin-top:1.5rem"><strong>Contact</strong></p>
+        <p class="lang-summary" data-i18n="langSummary">Good at two languages</p>
+        <p class="contact-heading"><strong data-i18n="aboutContactHeading">Contact</strong></p>
         <p><i class="fa-solid fa-envelope"></i> najahrami@hotmail.com</p>
         <p><i class="fa-solid fa-phone"></i> (+966) 545 159 568</p>
         <p><i class="fa-solid fa-location-dot"></i> Makkah Al-Mukarramah - Jadaa, KSA</p>
@@ -239,8 +239,8 @@
   <!-- ============================ Skills ============================ -->
   <section class="section skills" id="skills">
     <div class="section-head">
-      <span class="section-tag">02 — Skills</span>
-      <h2 class="section-title">A toolkit built on <span class="italic">research</span> & <span class="gradient-text">craft</span>.</h2>
+      <span class="section-tag" data-i18n="skillsSectionTag">02 — Skills</span>
+      <h2 class="section-title" data-i18n="skillsSectionTitle" data-i18n-html="true">A toolkit built on <span class="italic">research</span> & <span class="gradient-text">craft</span>.</h2>
     </div>
 
     <div class="skills-grid">
@@ -310,8 +310,8 @@
   <!-- ============================ Projects ============================ -->
   <section class="section projects" id="projects">
     <div class="section-head">
-      <span class="section-tag">03 — Projects</span>
-      <h2 class="section-title">Twelve projects.<br/><span class="gradient-text">One journey through HCI.</span></h2>
+      <span class="section-tag" data-i18n="projectsSectionTag">03 — Projects</span>
+      <h2 class="section-title" data-i18n="projectsSectionTitle" data-i18n-html="true">Twelve projects.<br/><span class="gradient-text">One journey through HCI.</span></h2>
       <p class="section-desc">
         Each project below came from a real university course or research brief.
         Where a UI was part of the deliverable, you'll find an interactive, in-page prototype
@@ -473,8 +473,8 @@
   <!-- ============================ Contact ============================ -->
   <section class="section contact" id="contact">
     <div class="section-head">
-      <span class="section-tag">04 — Contact</span>
-      <h2 class="section-title">Let's build <span class="italic">something</span> <span class="gradient-text">human</span>.</h2>
+      <span class="section-tag" data-i18n="contactSectionTag">04 — Contact</span>
+      <h2 class="section-title" data-i18n="contactSectionTitle" data-i18n-html="true">Let's build <span class="italic">something</span> <span class="gradient-text">human</span>.</h2>
     </div>
 
     <div class="contact-grid">
@@ -506,9 +506,9 @@
     <div class="footer-inner">
       <div class="footer-left">
         <span class="logo-mark">N<span class="logo-dot">.</span></span>
-        <span>Crafted with care · Makkah - jadaa, KSA</span>
+        <span data-i18n="footerCrafted">Crafted with care · Makkah - jadaa, KSA</span>
       </div>
-      <p class="footer-note">© 2026 Najah Rami Madani · HCI Portfolio · 12 Projects</p>
+      <p class="footer-note" data-i18n="footerNote">© 2026 Najah Rami Madani · HCI Portfolio · 12 Projects</p>
     </div>
   </footer>
 
