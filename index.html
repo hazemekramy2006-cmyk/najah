@@ -56,13 +56,16 @@
     </a>
 
     <ul class="nav-links">
-      <li><a href="#about" class="nav-link">About</a></li>
-      <li><a href="#skills" class="nav-link">Skills</a></li>
-      <li><a href="#projects" class="nav-link">Projects</a></li>
-      <li><a href="#contact" class="nav-link">Contact</a></li>
+      <li><a href="#about" class="nav-link" data-i18n="navAbout">About</a></li>
+      <li><a href="#skills" class="nav-link" data-i18n="navSkills">Skills</a></li>
+      <li><a href="#projects" class="nav-link" data-i18n="navProjects">Projects</a></li>
+      <li><a href="#contact" class="nav-link" data-i18n="navContact">Contact</a></li>
     </ul>
 
     <div class="nav-actions">
+      <button class="lang-toggle" id="langToggle" aria-label="Toggle language" data-magnetic>
+        <i class="fa-solid fa-language"></i>
+      </button>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" data-magnetic>
         <span class="toggle-track">
           <i class="fa-solid fa-sun icon-sun"></i>
@@ -91,7 +94,7 @@
     <div class="hero-grid-bg"></div>
 
     <div class="hero-content">
-      <div class="hero-badge reveal">
+      <div class="hero-badge" data-i18n="heroBadge">
         <span class="hero-dot"></span>
         <span>HCI · Software Engineering · UX Research</span>
       </div>
@@ -102,23 +105,27 @@
         <span class="title-line"><span class="title-text gradient-text">digital</span> <span class="title-text">experiences.</span></span>
       </h1>
 
-      <p class="hero-sub reveal">
+      <p class="hero-sub" data-i18n="heroSub">
         Hi, I'm <strong>Najah Rami Madani</strong> — a Software Engineering student at Umm Al-Qura University,
         specializing in <em>Human-Computer Interaction</em>. Below are 12 projects spanning UX research,
         accessibility, voice interfaces, information architecture, and full-stack development.
       </p>
 
-      <div class="hero-actions reveal">
+      <div class="hero-actions">
         <a href="#projects" class="btn btn-primary" data-magnetic>
-          <span>View Projects</span>
+          <span data-i18n="btnProjects">View Projects</span>
           <i class="fa-solid fa-arrow-right"></i>
         </a>
         <a href="#contact" class="btn btn-ghost" data-magnetic>
-          <span>Get in touch</span>
+          <span data-i18n="btnContact">Get in touch</span>
+        </a>
+        <a href="cv/Najah_Hajj_CV.pdf" class="btn btn-gold" target="_blank" data-magnetic>
+          <span data-i18n="btnCV">CV</span>
+          <i class="fa-solid fa-file-arrow-down"></i>
         </a>
       </div>
 
-      <div class="hero-meta reveal">
+      <div class="hero-meta">
         <div class="meta-item">
           <span class="meta-num" data-count="12">0</span>
           <span class="meta-label">Projects</span>
@@ -138,7 +145,7 @@
       </div>
     </div>
 
-    <div class="hero-3d-scene reveal-3d">
+    <div class="hero-3d-scene">
       <div class="tilt-card" data-tilt>
         <div class="tilt-card-inner">
           <div class="tilt-face front">
@@ -186,7 +193,7 @@
 
       <div class="about-card">
         <h3>Education</h3>
-        <p><strong>Umm Al-Qura University — Makkah</strong></p>
+        <p><strong>Umm Al-Qura University — Makkah / Jadaa</strong></p>
         <p>Bachelor's Degree in Software Engineering — Human-Computer Interaction.</p>
         <p><em>Expected Graduation: 2026</em></p>
       </div>
@@ -211,13 +218,20 @@
       <div class="about-card">
         <h3>Languages</h3>
         <ul class="lang-list">
-          <li><span>Arabic</span><span class="lang-bar"><i style="width:100%"></i></span></li>
-          <li><span>English</span><span class="lang-bar"><i style="width:90%"></i></span></li>
+          <li>
+            <span>Arabic</span>
+            <span class="lang-badge">Fluent</span>
+          </li>
+          <li>
+            <span>English</span>
+            <span class="lang-badge">Good</span>
+          </li>
         </ul>
+        <p class="lang-summary">Good at two languages</p>
         <p style="margin-top:1.5rem"><strong>Contact</strong></p>
         <p><i class="fa-solid fa-envelope"></i> najahrami@hotmail.com</p>
         <p><i class="fa-solid fa-phone"></i> (+966) 545 159 568</p>
-        <p><i class="fa-solid fa-location-dot"></i> Makkah Al-Mukarramah, KSA</p>
+        <p><i class="fa-solid fa-location-dot"></i> Makkah Al-Mukarramah - Jadaa, KSA</p>
       </div>
     </div>
   </section>
@@ -477,7 +491,7 @@
       <a class="contact-card" data-magnetic>
         <i class="fa-solid fa-location-dot"></i>
         <span>Based in</span>
-        <strong>Makkah Al-Mukarramah, KSA</strong>
+        <strong>Makkah Al-Mukarramah - Jadaa, KSA</strong>
       </a>
       <a class="contact-card" data-magnetic>
         <i class="fa-solid fa-graduation-cap"></i>
@@ -492,7 +506,7 @@
     <div class="footer-inner">
       <div class="footer-left">
         <span class="logo-mark">N<span class="logo-dot">.</span></span>
-        <span>Crafted with care · Makkah, KSA</span>
+        <span>Crafted with care · Makkah - jadaa, KSA</span>
       </div>
       <p class="footer-note">© 2026 Najah Rami Madani · HCI Portfolio · 12 Projects</p>
     </div>

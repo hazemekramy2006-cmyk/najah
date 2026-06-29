@@ -1,0 +1,196 @@
+title: Najah Rami Madani — HCI & Software Engineering Portfolio
+p: Loading Portfolio
+span: N
+span: Najah Madani
+a: About
+a: Skills
+a: Projects
+a: Contact
+a: About
+a: Skills
+a: Projects
+a: Contact
+span: HCI · Software Engineering · UX Research
+span: Crafting
+span: human
+span: first
+span: digital
+span: experiences.
+p: Hi, I'm
+strong: Najah Rami Madani
+p: — a Software Engineering student at Umm Al-Qura University,
+        specializing in
+em: Human-Computer Interaction
+p: . Below are 12 projects spanning UX research,
+        accessibility, voice interfaces, information architecture, and full-stack development.
+span: View Projects
+span: Get in touch
+span: CV
+span: Projects
+span: Graduation
+span: Hajj Seasons
+span: University
+span: Najah Rami
+h3: HCI Engineer in Training
+p: Makkah · KSA
+span: UX Research
+span: UI Design
+span: VUI
+p: "Design that respects cognitive limits wins."
+span: Scroll
+span: 01 — About
+h2: A student of
+span: interfaces
+h2: , not just
+span: screens
+h3: Career Objective
+p: A student majoring in Human-Computer Interaction – Software Engineering at Umm Al-Qura University,
+          seeking seasonal work opportunities during Hajj season to serve the Guests of Allah by using
+          communication, organization, and teamwork skills, and to provide support to pilgrims to ensure
+          a smooth and comfortable experience during their pilgrimage.
+h3: Education
+strong: Umm Al-Qura University — Makkah / Jadaa
+p: Bachelor's Degree in Software Engineering — Human-Computer Interaction.
+em: Expected Graduation: 2026
+h3: Work Experience
+strong: Customer Service Representative — Hajj 1446H
+li: Welcoming pilgrims, answering inquiries, providing service info.
+li: Guiding pilgrims, organizing entry/exit at service points.
+li: Handling complaints and coordinating with specialized teams.
+li: Supporting pilgrims of different nationalities.
+strong: Hajj Season 1445H
+li: Organizing pilgrim movement within service locations.
+li: Supporting field teams in daily Hajj operations.
+li: Assisting pilgrims reach assigned locations and services.
+h3: Languages
+span: Arabic
+span: Fluent
+span: English
+span: Good
+p: Good at two languages
+strong: Contact
+p: najahrami@hotmail.com
+p: Makkah Al-Mukarramah - Jadaa, KSA
+span: 02 — Skills
+h2: A toolkit built on
+span: research
+span: craft
+h3: Customer Service & Communication
+p: Hands-on experience serving thousands of Hajj pilgrims.
+h3: Teamwork & Collaboration
+p: Co-authored 12+ team projects across UX, SRS, IA, VUI and full-stack.
+h3: Organization & Time Management
+p: From WBS to Gantt — I structure work into shippable milestones.
+h3: Problem Solving
+p: Calm under pressure — proven across two Hajj seasons and rapid UX studies.
+h3: UX Research
+p: Surveys, contextual inquiry, persona dev, journey maps, content testing.
+h3: UI / Wireframing
+p: Low-fi to high-fi in Figma. Heuristic & accessibility-aware design.
+h3: Information Architecture
+p: Sitemaps, navigation structures, organization schemes, content inventory.
+h3: Voice UI
+p: Dialogue flows, error handling, multimodal interaction, accessibility scenarios.
+h3: Software Engineering
+p: Vue 3, Node.js, Express, MongoDB Atlas, Mongoose, full-stack CRUD.
+h3: SRS / Requirements
+p: Stakeholder analysis, use cases, NFRs, functional specs, traceability.
+h3: Accessibility (a11y)
+p: WCAG-aware design, screen-reader flows, inclusive interaction patterns.
+h3: Microsoft Office
+p: Reports, project docs, presentations, academic deliverables.
+span: 03 — Projects
+h2: Twelve projects.
+span: One journey through HCI.
+p: Each project below came from a real university course or research brief.
+        Where a UI was part of the deliverable, you'll find an interactive, in-page prototype
+        — not a static screenshot.
+span: Project Plan · WBS · Gantt
+h3: The Ingredients App — Project Plan
+p: Mobile app that recommends recipes based on ingredients you have at home.
+span: Requirements
+span: WBS
+span: Gantt
+span: 990 SAR / 5 months
+span: Voice UI Design
+h3: VUI — Barn's Coffee Drive-Thru Assistant
+p: Voice assistant that takes & confirms orders with explicit + implicit modes.
+span: Dialogue flows
+span: Persona: BarnBot
+span: Multimodal
+span: UX Research
+h3: The Ingredients Website — UX Research
+p: Survey, personas, lo-fi / mid-fi / hi-fi, user flow & usability testing.
+span: Survey
+span: Wireframes
+span: User Flow
+span: Usability
+span: User Research
+h3: Optimizing STC App Interface
+p: HCI research into STC app — colors, offers placement & recharging flow.
+span: 6 participants
+span: Content testing
+span: Heuristics
+span: Heuristic Evaluation
+h3: Usability Evaluation — Ehsan & Tabaru
+p: Nielsen's 10-heuristic evaluation of two Saudi charity platforms.
+span: Nielsen's 10
+span: Severity ratings
+span: Recommendations
+span: Information Architecture
+h3: Event Hub — IA Redesign
+p: Card sorting, sitemap, navigation structure for an event-booking app.
+span: Sitemap
+span: Card Sorting
+span: Audit
+span: UI Design
+h3: The Ingredients Website — UI Design
+p: Building the UI: lo-fi sketches → mid-fi → hi-fi, with user flow & tests.
+span: Lo-Fi
+span: Mid-Fi
+span: Hi-Fi
+span: User Flow
+span: Full-Stack Web App
+h3: Digital Menu — Vue 3 · Node.js · MongoDB
+p: Full-stack café digital menu with persistent cloud storage.
+span: Vue 3 SPA
+span: Express API
+span: MongoDB Atlas
+span: SRS Document
+h3: Order Delivery System (ODS) — SRS
+p: Software Requirements Specification with 6 UI mockups & use cases.
+span: SRS
+span: Use Cases
+span: 6 UI mockups
+span: UX Research
+h3: Jahez — Cancellation UX Research
+p: Improving the cancel-order experience in Jahez delivery app.
+span: 3 personas
+span: Journey maps
+span: User stories
+span: System Design · Implementation
+h3: LAYAQAH — Sports Injury Tracking (GP2)
+p: Unified system for player/coach/doctor with dashboards & wireframes.
+span: 3 roles
+span: 3 dashboards
+span: Use cases
+span: Context-Aware HCI
+h3: Hajj & Umrah — Arafat Boundary Verification System
+p: Smart wristband + mobile app with haptic-only alerts for pilgrim safety.
+span: 6 mobile screens
+span: 7 wristband screens
+span: Haptic UX
+span: 04 — Contact
+h2: Let's build
+span: something
+span: human
+span: Email
+strong: najahrami@hotmail.com
+span: Phone
+span: Based in
+strong: Makkah Al-Mukarramah - Jadaa, KSA
+span: University
+strong: Umm Al-Qura University
+span: N
+span: Crafted with care · Makkah - jadaa, KSA
+p: © 2026 Najah Rami Madani · HCI Portfolio · 12 Projects

@@ -68,8 +68,8 @@
       scrollTrigger: {
         trigger: el,
         start: 'top 85%',
-        end: 'bottom 20%',
-        toggleActions: 'play none none reverse'
+        once: true,
+        toggleActions: 'play none none none'
       }
     });
   });
@@ -85,14 +85,14 @@
       scrollTrigger: {
         trigger: el,
         start: 'top 80%',
-        end: 'bottom 20%',
-        toggleActions: 'play none none reverse'
+        once: true,
+        toggleActions: 'play none none none'
       }
     });
   });
 
-  // ---------- 4. ABOUT / SKILLS · STAGGER ----------
-  gsap.utils.toArray('.about-card, .skill-card').forEach((card, i) => {
+  // ---------- 4. ABOUT · STAGGER ----------
+  gsap.utils.toArray('.about-card').forEach((card, i) => {
     gsap.from(card, {
       opacity: 0,
       y: 50,
@@ -104,7 +104,8 @@
       scrollTrigger: {
         trigger: card,
         start: 'top 88%',
-        toggleActions: 'play none none reverse'
+        once: true,
+        toggleActions: 'play none none none'
       }
     });
   });
