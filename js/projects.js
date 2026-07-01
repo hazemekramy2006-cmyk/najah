@@ -1,15 +1,36 @@
 /* =====================================================
    NAJAH MADANI — PROJECTS.JS
-   All 12 project detail sections · injected after #projectDetails
+   Project detail sections injected after #projectDetails
    ===================================================== */
 
 (() => {
   const container = document.getElementById('projectDetails');
   if (!container) return;
 
-  const projects = [
+  const galleryImages = [
+    'Screenshot 2026-06-30 175224.png',
+    'Screenshot 2026-06-30 175239.png',
+    'Screenshot 2026-06-30 175251.png',
+    'Screenshot 2026-06-30 175307.png',
+    'Screenshot 2026-06-30 175320.png',
+    'Screenshot 2026-06-30 175332.png',
+    'Screenshot 2026-06-30 175341.png',
+    'Screenshot 2026-06-30 175359.png',
+    'Screenshot 2026-06-30 175416.png',
+    'Screenshot 2026-06-30 175423.png',
+    'Screenshot 2026-06-30 175430.png',
+    'Screenshot 2026-06-30 175436.png',
+    'Screenshot 2026-06-30 175442.png',
+    'Screenshot 2026-06-30 175450.png',
+    'Screenshot 2026-06-30 175456.png',
+    'Screenshot 2026-06-30 175505.png',
+    'Screenshot 2026-06-30 175524.png',
+    'Screenshot 2026-06-30 175532.png',
+    'Screenshot 2026-06-30 175545.png'
+  ];
 
-    /* =========================================================
+  const projects = [
+/* =========================================================
        PROJECT 1 — Ingredients App Project Plan
        ========================================================= */
     {
@@ -98,7 +119,7 @@
       `
     },
 
-    /* =========================================================
+/* =========================================================
        PROJECT 2 — VUI Barn's Coffee
        ========================================================= */
     {
@@ -182,7 +203,7 @@
       `
     },
 
-    /* =========================================================
+/* =========================================================
        PROJECT 3 — Ingredients Website UX Research
        ========================================================= */
     {
@@ -297,7 +318,7 @@
       `
     },
 
-    /* =========================================================
+/* =========================================================
        PROJECT 4 — STC App UX Research
        ========================================================= */
     {
@@ -361,7 +382,7 @@
       `
     },
 
-    /* =========================================================
+/* =========================================================
        PROJECT 5 — Usability Evaluation Ehsan & Tabaru
        ========================================================= */
     {
@@ -444,7 +465,7 @@
       `
     },
 
-    /* =========================================================
+/* =========================================================
        PROJECT 6 — Event Hub Information Architecture
        ========================================================= */
     {
@@ -520,7 +541,7 @@
       `
     },
 
-    /* =========================================================
+/* =========================================================
        PROJECT 7 — Ingredients Website UI Design
        ========================================================= */
     {
@@ -628,7 +649,7 @@
       `
     },
 
-    /* =========================================================
+/* =========================================================
        PROJECT 8 — Digital Menu (Vue / Node / Mongo)
        ========================================================= */
     {
@@ -689,7 +710,7 @@
       `
     },
 
-    /* =========================================================
+/* =========================================================
        PROJECT 9 — Order Delivery System SRS
        ========================================================= */
     {
@@ -795,7 +816,7 @@
       `
     },
 
-    /* =========================================================
+/* =========================================================
        PROJECT 10 — Jahez UX Research
        ========================================================= */
     {
@@ -887,7 +908,7 @@
       `
     },
 
-    /* =========================================================
+/* =========================================================
        PROJECT 11 — LAYAQAH App
        ========================================================= */
     {
@@ -981,7 +1002,7 @@
       `
     },
 
-    /* =========================================================
+/* =========================================================
        PROJECT 12 — HAJJ & UMRAH Arafat Boundary Verification
        ========================================================= */
     {
@@ -1144,11 +1165,54 @@
           </div>
         </div>
       `
-    }
+    },
+
+/* =========================================================
+       PROJECT 13 — Graduation Project
+       ========================================================= */
+    {
+      odd: false,
+      meta: ['Graduation Project', 'UI Screens', 'Showcase', 'Portfolio'],
+      title: 'Graduation Project',
+      overview: `A lightweight graduation project showcase presented as a polished UI portfolio section. The project now uses the real screenshots stored in the images folder for a more complete presentation.`,
+      learningsTitle: 'What this section includes',
+      learnings: [
+        'A clear, minimal project description for the graduation showcase.',
+        'Real screenshots from the images folder organized as a visual gallery.',
+        'A flexible layout that keeps the portfolio presentation polished and ready to share.',
+        'A professional showcase suitable for portfolio review.'
+      ],
+      goalsTitle: 'Purpose',
+      goals: [
+        'Present the graduation project in a clean, professional way.',
+        'Showcase the project through authentic screenshots.',
+        'Keep the section visually rich and ready for review.'
+      ],
+      stats: [
+        { num: '19', label: 'Screenshots' },
+        { num: '1', label: 'Showcase Section' },
+        { num: '100%', label: 'Visual Ready' }
+      ],
+      statsTitle: 'At a glance',
+      uiTitle: 'UI Gallery Preview — Project Screenshots',
+      uiIcon: 'fa-graduation-cap',
+      ui: `
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:0.75rem;">
+          ${galleryImages.map((file, index) => `
+            <button class="gallery-image-btn" type="button" data-image="images/${encodeURIComponent(file)}" data-alt="Graduation project screenshot ${index + 1}" style="border:1px solid rgba(255,255,255,0.12);border-radius:16px;overflow:hidden;background:linear-gradient(135deg,#1f2937,#111827);box-shadow:0 10px 30px rgba(0,0,0,0.18);aspect-ratio:4/5;">
+              <img src="images/${encodeURIComponent(file)}" alt="Graduation project screenshot ${index + 1}" loading="lazy" style="display:block;width:100%;height:100%;object-fit:cover;" />
+            </button>
+          `).join('')}
+        </div>
+      `
+    },
+
+
   ];
 
-  // ---------- Build HTML for each project ----------
-  projects.forEach((p, idx) => {
+  // ---------- Build HTML for each visible project ----------
+  const visibleProjects = [projects[0], projects[10], projects[8], projects[3], projects[5], projects[12]];
+  visibleProjects.forEach((p, idx) => {
     const num = String(idx + 1).padStart(2, '0');
 
     const html = `
@@ -1212,6 +1276,49 @@
     `;
 
     container.insertAdjacentHTML('beforeend', html);
+  });
+
+  const modal = document.createElement('div');
+  modal.className = 'gallery-modal';
+  modal.innerHTML = `
+    <div class="gallery-modal__content">
+      <button class="gallery-modal__close" type="button" aria-label="Close image preview">✕</button>
+      <img class="gallery-modal__image" src="" alt="Expanded project preview" />
+    </div>
+  `;
+  document.body.appendChild(modal);
+
+  const modalImage = modal.querySelector('.gallery-modal__image');
+  const modalClose = modal.querySelector('.gallery-modal__close');
+
+  const openGalleryModal = (src, alt) => {
+    modalImage.src = src;
+    modalImage.alt = alt;
+    modal.classList.add('is-open');
+    document.body.style.overflow = 'hidden';
+  };
+
+  const closeGalleryModal = () => {
+    modal.classList.remove('is-open');
+    document.body.style.overflow = '';
+  };
+
+  container.addEventListener('click', (event) => {
+    const trigger = event.target.closest('.gallery-image-btn');
+    if (!trigger) return;
+    openGalleryModal(trigger.dataset.image, trigger.dataset.alt);
+  });
+
+  modal.addEventListener('click', (event) => {
+    if (event.target === modal || event.target.closest('.gallery-modal__close')) {
+      closeGalleryModal();
+    }
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && modal.classList.contains('is-open')) {
+      closeGalleryModal();
+    }
   });
 
   // ---------- Project 8 demo: Digital Menu — interactive mock ----------

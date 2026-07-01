@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Najah Rami Madani — Software Engineering & HCI Portfolio. 12 projects spanning UX research, UI design, Voice UI, Information Architecture and full-stack development." />
+  <meta name="description" content="Najah Rami Madani — Software Engineering & HCI Portfolio. +12 projects spanning UX research, UI design, Voice UI, Information Architecture and full-stack development." />
   <title>Najah Rami Madani — HCI & Software Engineering Portfolio</title>
 
   <!-- Fonts -->
@@ -58,6 +58,7 @@
     <ul class="nav-links">
       <li><a href="#about" class="nav-link" data-i18n="navAbout">About</a></li>
       <li><a href="#skills" class="nav-link" data-i18n="navSkills">Skills</a></li>
+      <li><a href="#certification" class="nav-link">Certification</a></li>
       <li><a href="#projects" class="nav-link" data-i18n="navProjects">Projects</a></li>
       <li><a href="#contact" class="nav-link" data-i18n="navContact">Contact</a></li>
     </ul>
@@ -84,6 +85,7 @@
     <ul>
       <li><a href="#about" data-i18n="navAbout">About</a></li>
       <li><a href="#skills" data-i18n="navSkills">Skills</a></li>
+      <li><a href="#certification">Certification</a></li>
       <li><a href="#projects" data-i18n="navProjects">Projects</a></li>
       <li><a href="#contact" data-i18n="navContact">Contact</a></li>
     </ul>
@@ -107,7 +109,7 @@
 
       <p class="hero-sub" data-i18n="heroSub" data-i18n-html="true">
         Hi, I'm <strong>Najah Rami Madani</strong> — a Software Engineering student at Umm Al-Qura University,
-        specializing in <em>Human-Computer Interaction</em>. Below are 12 projects spanning UX research,
+        specializing in <em>Human-Computer Interaction</em>. Below are 13 projects spanning UX research,
         accessibility, voice interfaces, information architecture, and full-stack development.
       </p>
 
@@ -119,7 +121,7 @@
         <a href="#contact" class="btn btn-ghost" data-magnetic>
           <span data-i18n="btnContact">Get in touch</span>
         </a>
-        <a href="cv/Najah_Hajj_CV.pdf" class="btn btn-gold" target="_blank" data-magnetic>
+        <a href="cv/Najah_Madani_CV_Arabic_English.pdf" class="btn btn-gold" target="_blank" data-magnetic>
           <span data-i18n="btnCV">CV</span>
           <i class="fa-solid fa-file-arrow-down"></i>
         </a>
@@ -127,7 +129,7 @@
 
       <div class="hero-meta">
         <div class="meta-item">
-          <span class="meta-num" data-count="12">0</span>
+          <span class="meta-num" data-count="13">0</span>
           <span class="meta-label" data-i18n="metaProjects">Projects</span>
         </div>
         <div class="meta-item">
@@ -307,11 +309,33 @@
     </div>
   </section>
 
+  <!-- ============================ Certification ============================ -->
+  <section class="section certification" id="certification">
+    <div class="section-head">
+      <span class="section-tag">05 — Certification</span>
+      <h2 class="section-title">My certificates</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-card">
+        <h3>Certificate 1</h3>
+        <p>Here you can display your first certificate image directly in the portfolio.</p>
+        <img src="cv/Screenshot 2026-06-30 164905.png" alt="Certificate 1" style="width:100%; border-radius:16px; margin-top:12px; object-fit:cover;" />
+      </div>
+
+      <div class="about-card">
+        <h3>Certificate 2</h3>
+        <p>Here you can display your second certificate image directly in the portfolio.</p>
+        <img src="cv/WhatsApp Image 2026-06-30 at 4.40.59 PM.jpeg" alt="Certificate 2" style="width:100%; border-radius:16px; margin-top:12px; object-fit:cover;" />
+      </div>
+    </div>
+  </section>
+
   <!-- ============================ Projects ============================ -->
   <section class="section projects" id="projects">
     <div class="section-head">
       <span class="section-tag" data-i18n="projectsSectionTag">03 — Projects</span>
-      <h2 class="section-title" data-i18n="projectsSectionTitle" data-i18n-html="true">Twelve projects.<br/><span class="gradient-text">One journey through HCI.</span></h2>
+      <h2 class="section-title" data-i18n="projectsSectionTitle" data-i18n-html="true">Six featured projects.<br/><span class="gradient-text">Focused on research, systems, and impact.</span></h2>
       <p class="section-desc">
         Each project below came from a real university course or research brief.
         Where a UI was part of the deliverable, you'll find an interactive, in-page prototype
@@ -320,150 +344,82 @@
     </div>
 
     <div class="projects-rail" id="projectsRail">
-      <!-- 12 project cards, generated below as <article> -->
-      <article class="project-card" data-project="1" data-index="01">
-        <div class="pcard-top">
-          <span class="pcard-num">01</span>
-          <span class="pcard-cat">Project Plan · WBS · Gantt</span>
-        </div>
-        <h3 class="pcard-title">The Ingredients App — Project Plan</h3>
-        <p class="pcard-sub">Mobile app that recommends recipes based on ingredients you have at home.</p>
-        <div class="pcard-tags">
-          <span>Requirements</span><span>WBS</span><span>Gantt</span><span>990 SAR / 5 months</span>
-        </div>
-      </article>
+      <div class="projects-group">
+        <h3 class="projects-group-title"><i class="fa-solid fa-seedling"></i> Featured Projects</h3>
+        <div class="projects-group-grid">
+          <article class="project-card" data-project="1" data-index="01">
+            <div class="pcard-top">
+              <span class="pcard-num">01</span>
+              <span class="pcard-cat">Project Plan · WBS · Gantt</span>
+            </div>
+            <h3 class="pcard-title">The Ingredients App — Project Plan</h3>
+            <p class="pcard-sub">Mobile app that recommends recipes based on ingredients you already have at home.</p>
+            <div class="pcard-tags">
+              <span>Requirements</span><span>WBS</span><span>Gantt</span><span>990 SAR / 5 months</span>
+            </div>
+          </article>
 
-      <article class="project-card" data-project="2" data-index="02">
-        <div class="pcard-top">
-          <span class="pcard-num">02</span>
-          <span class="pcard-cat">Voice UI Design</span>
-        </div>
-        <h3 class="pcard-title">VUI — Barn's Coffee Drive-Thru Assistant</h3>
-        <p class="pcard-sub">Voice assistant that takes & confirms orders with explicit + implicit modes.</p>
-        <div class="pcard-tags">
-          <span>Dialogue flows</span><span>Persona: BarnBot</span><span>Multimodal</span>
-        </div>
-      </article>
+          <article class="project-card" data-project="2" data-index="02">
+            <div class="pcard-top">
+              <span class="pcard-num">02</span>
+              <span class="pcard-cat">Graduation Project · GP2</span>
+            </div>
+            <h3 class="pcard-title">LAYAQAH — Graduation Project · Sports Injury Tracking (GP2)</h3>
+            <p class="pcard-sub">A unified sports injury system with role-based dashboards, workflows, and accessibility-aware design.</p>
+            <div class="pcard-tags">
+              <span>3 roles</span><span>3 dashboards</span><span>Use cases</span>
+            </div>
+          </article>
 
-      <article class="project-card" data-project="3" data-index="03">
-        <div class="pcard-top">
-          <span class="pcard-num">03</span>
-          <span class="pcard-cat">UX Research</span>
-        </div>
-        <h3 class="pcard-title">The Ingredients Website — UX Research</h3>
-        <p class="pcard-sub">Survey, personas, lo-fi / mid-fi / hi-fi, user flow & usability testing.</p>
-        <div class="pcard-tags">
-          <span>Survey</span><span>Wireframes</span><span>User Flow</span><span>Usability</span>
-        </div>
-      </article>
+          <article class="project-card" data-project="3" data-index="03">
+            <div class="pcard-top">
+              <span class="pcard-num">03</span>
+              <span class="pcard-cat">SRS Document</span>
+            </div>
+            <h3 class="pcard-title">Order Delivery System (ODS) — SRS Document</h3>
+            <p class="pcard-sub">Software requirements specification covering use cases, UI mockups, and delivery workflow design.</p>
+            <div class="pcard-tags">
+              <span>SRS</span><span>Use Cases</span><span>6 UI mockups</span>
+            </div>
+          </article>
 
-      <article class="project-card" data-project="4" data-index="04">
-        <div class="pcard-top">
-          <span class="pcard-num">04</span>
-          <span class="pcard-cat">User Research</span>
-        </div>
-        <h3 class="pcard-title">Optimizing STC App Interface</h3>
-        <p class="pcard-sub">HCI research into STC app — colors, offers placement & recharging flow.</p>
-        <div class="pcard-tags">
-          <span>6 participants</span><span>Content testing</span><span>Heuristics</span>
-        </div>
-      </article>
+          <article class="project-card" data-project="4" data-index="04">
+            <div class="pcard-top">
+              <span class="pcard-num">04</span>
+              <span class="pcard-cat">User Research</span>
+            </div>
+            <h3 class="pcard-title">Optimizing STC App Interface</h3>
+            <p class="pcard-sub">HCI research into the STC app with a focus on usability, colors, and offers placement.</p>
+            <div class="pcard-tags">
+              <span>6 participants</span><span>Content testing</span><span>Heuristics</span>
+            </div>
+          </article>
 
-      <article class="project-card" data-project="5" data-index="05">
-        <div class="pcard-top">
-          <span class="pcard-num">05</span>
-          <span class="pcard-cat">Heuristic Evaluation</span>
-        </div>
-        <h3 class="pcard-title">Usability Evaluation — Ehsan & Tabaru</h3>
-        <p class="pcard-sub">Nielsen's 10-heuristic evaluation of two Saudi charity platforms.</p>
-        <div class="pcard-tags">
-          <span>Nielsen's 10</span><span>Severity ratings</span><span>Recommendations</span>
-        </div>
-      </article>
+          <article class="project-card" data-project="5" data-index="05">
+            <div class="pcard-top">
+              <span class="pcard-num">05</span>
+              <span class="pcard-cat">Information Architecture</span>
+            </div>
+            <h3 class="pcard-title">Event Hub — IA Redesign</h3>
+            <p class="pcard-sub">Navigation, sitemap, and information architecture redesign for an event-booking experience.</p>
+            <div class="pcard-tags">
+              <span>Sitemap</span><span>Card Sorting</span><span>Audit</span>
+            </div>
+          </article>
 
-      <article class="project-card" data-project="6" data-index="06">
-        <div class="pcard-top">
-          <span class="pcard-num">06</span>
-          <span class="pcard-cat">Information Architecture</span>
+          <article class="project-card" data-project="6" data-index="06">
+            <div class="pcard-top">
+              <span class="pcard-num">06</span>
+              <span class="pcard-cat">Graduation Project · Gallery</span>
+            </div>
+            <h3 class="pcard-title">Graduation Project</h3>
+            <p class="pcard-sub">A polished showcase of the graduation project with real screenshots and a visual gallery.</p>
+            <div class="pcard-tags">
+              <span>Showcase</span><span>Gallery</span><span>Portfolio</span>
+            </div>
+          </article>
         </div>
-        <h3 class="pcard-title">Event Hub — IA Redesign</h3>
-        <p class="pcard-sub">Card sorting, sitemap, navigation structure for an event-booking app.</p>
-        <div class="pcard-tags">
-          <span>Sitemap</span><span>Card Sorting</span><span>Audit</span>
-        </div>
-      </article>
-
-      <article class="project-card" data-project="7" data-index="07">
-        <div class="pcard-top">
-          <span class="pcard-num">07</span>
-          <span class="pcard-cat">UI Design</span>
-        </div>
-        <h3 class="pcard-title">The Ingredients Website — UI Design</h3>
-        <p class="pcard-sub">Building the UI: lo-fi sketches → mid-fi → hi-fi, with user flow & tests.</p>
-        <div class="pcard-tags">
-          <span>Lo-Fi</span><span>Mid-Fi</span><span>Hi-Fi</span><span>User Flow</span>
-        </div>
-      </article>
-
-      <article class="project-card" data-project="8" data-index="08">
-        <div class="pcard-top">
-          <span class="pcard-num">08</span>
-          <span class="pcard-cat">Full-Stack Web App</span>
-        </div>
-        <h3 class="pcard-title">Digital Menu — Vue 3 · Node.js · MongoDB</h3>
-        <p class="pcard-sub">Full-stack café digital menu with persistent cloud storage.</p>
-        <div class="pcard-tags">
-          <span>Vue 3 SPA</span><span>Express API</span><span>MongoDB Atlas</span>
-        </div>
-      </article>
-
-      <article class="project-card" data-project="9" data-index="09">
-        <div class="pcard-top">
-          <span class="pcard-num">09</span>
-          <span class="pcard-cat">SRS Document</span>
-        </div>
-        <h3 class="pcard-title">Order Delivery System (ODS) — SRS</h3>
-        <p class="pcard-sub">Software Requirements Specification with 6 UI mockups & use cases.</p>
-        <div class="pcard-tags">
-          <span>SRS</span><span>Use Cases</span><span>6 UI mockups</span>
-        </div>
-      </article>
-
-      <article class="project-card" data-project="10" data-index="10">
-        <div class="pcard-top">
-          <span class="pcard-num">10</span>
-          <span class="pcard-cat">UX Research</span>
-        </div>
-        <h3 class="pcard-title">Jahez — Cancellation UX Research</h3>
-        <p class="pcard-sub">Improving the cancel-order experience in Jahez delivery app.</p>
-        <div class="pcard-tags">
-          <span>3 personas</span><span>Journey maps</span><span>User stories</span>
-        </div>
-      </article>
-
-      <article class="project-card" data-project="11" data-index="11">
-        <div class="pcard-top">
-          <span class="pcard-num">11</span>
-          <span class="pcard-cat">System Design · Implementation</span>
-        </div>
-        <h3 class="pcard-title">LAYAQAH — Sports Injury Tracking (GP2)</h3>
-        <p class="pcard-sub">Unified system for player/coach/doctor with dashboards & wireframes.</p>
-        <div class="pcard-tags">
-          <span>3 roles</span><span>3 dashboards</span><span>Use cases</span>
-        </div>
-      </article>
-
-      <article class="project-card" data-project="12" data-index="12">
-        <div class="pcard-top">
-          <span class="pcard-num">12</span>
-          <span class="pcard-cat">Context-Aware HCI</span>
-        </div>
-        <h3 class="pcard-title">Hajj & Umrah — Arafat Boundary Verification System</h3>
-        <p class="pcard-sub">Smart wristband + mobile app with haptic-only alerts for pilgrim safety.</p>
-        <div class="pcard-tags">
-          <span>6 mobile screens</span><span>7 wristband screens</span><span>Haptic UX</span>
-        </div>
-      </article>
+      </div>
     </div>
   </section>
 
@@ -508,7 +464,7 @@
         <span class="logo-mark">N<span class="logo-dot">.</span></span>
         <span data-i18n="footerCrafted">Crafted with care · Makkah - Jeddah, KSA</span>
       </div>
-      <p class="footer-note" data-i18n="footerNote">© 2026 Najah Rami Madani · HCI Portfolio · 12 Projects</p>
+      <p class="footer-note" data-i18n="footerNote">© 2026 Najah Rami Madani · HCI Portfolio · 13 Projects</p>
     </div>
   </footer>
 
